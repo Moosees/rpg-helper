@@ -1,14 +1,23 @@
-body {
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
   margin: 0;
   padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
 }
+
+body {
+  background-color: rgb(255, 234, 196);
+  color: #000;
+  font-family: 'Cinzel', serif;
+  font-size: 2rem;
+  line-height: 1.6;
+  margin: 2rem;
+}
+
+/* font-family: 'Zeyada', cursive; */
